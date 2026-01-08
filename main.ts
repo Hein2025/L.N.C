@@ -1,7 +1,7 @@
 // main.ts - PRODUCTION VLESS SERVER
 import { exists } from "https://deno.land/std/fs/exists.ts";
 
-const envUUID = Deno.env.get('UUID') || 'e5185305-1984-4084-81e0-f77271159c62';
+const envUUID = Deno.env.get('UUID') || '8ba2a87b-4a02-4d25-8603-b6a3323ee278';
 const proxyIP = Deno.env.get('PROXYIP') || '';
 const credit = Deno.env.get('CREDIT') || 'Deno-Production-VLESS';
 
